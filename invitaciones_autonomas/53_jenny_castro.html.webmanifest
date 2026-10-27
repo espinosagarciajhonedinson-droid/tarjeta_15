@@ -1,0 +1,36 @@
+{
+  "id": "./53_jenny_castro.html",
+  "name": "Mis 15 Años - Jenny Castro",
+  "short_name": "Invitación Jenny",
+  "description": "Invitación Digital a los 15 Años de Jenny Castro",
+  "start_url": "./53_jenny_castro.html",
+  "scope": "../",
+  "display": "standalone",
+  "display_override": [
+    "standalone"
+  ],
+  "orientation": "portrait",
+  "background_color": "#cde8af",
+  "theme_color": "#B88E39",
+  "icons": [
+    {
+      "src": "../assets/icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "../assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "../assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "lang": "es"
+}
