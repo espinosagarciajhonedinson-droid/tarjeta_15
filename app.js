@@ -380,8 +380,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 group.hidden = true;
             });
             if (submitBtn) {
-                submitBtn.classList.remove('btn-whatsapp');
-                submitBtn.innerHTML = '<i class="fas fa-clipboard-check"></i> Abrir formulario de confirmación';
+                submitBtn.innerHTML = '<i class="fas fa-clipboard-check"></i> Confirmar asistencia';
             }
             const sectionIcon = document.querySelector('.rsvp-icon');
             if (sectionIcon) {
