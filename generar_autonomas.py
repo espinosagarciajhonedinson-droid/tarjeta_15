@@ -162,7 +162,8 @@ guests = [
         "name": "Alberto Bonilla, Dilia Ortega & Sofia",
         "passes": 3,
         "confirmation_url": "https://docs.google.com/forms/d/e/1FAIpQLScKWUi7P4aejnbv4NrVak4d5YYn8zl5rTPM3tkbWC-gI7PfOg/viewform?usp=header"
-    }
+    },
+    {"id": 54, "name": "Jorge Alexander Gomez", "passes": 1}
 ]
 
 def generate_autonomous_invitations(guest_ids=None):
