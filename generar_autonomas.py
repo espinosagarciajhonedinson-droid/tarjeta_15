@@ -163,11 +163,12 @@ guests = [
         "passes": 3,
         "confirmation_url": "https://docs.google.com/forms/d/e/1FAIpQLScKWUi7P4aejnbv4NrVak4d5YYn8zl5rTPM3tkbWC-gI7PfOg/viewform?usp=header"
     },
-    {"id": 54, "name": "Jorge Alexander Gomez", "passes": 1}
+    {"id": 54, "name": "Jorge Alexander Gomez", "passes": 1},
+    {"id": 56, "name": "Yeison Camargo", "passes": 1}
 ]
 
 def generate_autonomous_invitations(guest_ids=None):
-    base_dir = "/home/jhonespinosa/tarjetas_15"
+    base_dir = os.path.dirname(os.path.abspath(__file__))
     assets_dir = os.path.join(base_dir, "assets")
     output_dir = os.path.join(base_dir, "invitaciones_autonomas")
 
